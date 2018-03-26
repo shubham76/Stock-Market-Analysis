@@ -1,0 +1,6 @@
+scrapy
+pandas
+tweepy
+textblob
+pyquery
+TextBlob
