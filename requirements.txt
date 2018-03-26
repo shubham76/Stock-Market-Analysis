@@ -4,3 +4,9 @@ tweepy
 textblob
 pyquery
 TextBlob
+nltk
+xlrd
+quandl
+sklearn
+scipy
+matplotlib
