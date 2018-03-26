@@ -1,13 +1,3 @@
-# This package will contain the spiders of your Scrapy project
-#
-# Please refer to the documentation for information on how to create and manage
-# your spiders.
-"""
-Created on Mon Nov 14 23:16:56 2016
-
-@author: ZNevzz
-"""
-
 import scrapy
 import pandas as pd
 import re
