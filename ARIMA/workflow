@@ -1,0 +1,12 @@
+file.csv , normalizer -> normalized.csv
+
+normalized.csv , sentiment -> labeled_round.csv
+
+labeled_round.csv ,company_keyword.xlsx , database_of_companies , keyword_extraction -> company_id.csv
+
+company_id.csv + pre_prediction -> company_id_score_mode.csv
+
+company_id_score_open.csv, company_id_score_close.csv, merge_sentiments.py -> company_id_sentiment.csv
+
+company_id_sentiment.csv , 'NSE-'+company_id+'.csv' , interpolation, normalisation , merge_quandl -> company_id_qs.csv
+
