@@ -1,3 +1,4 @@
 scrapy crawl livemint_spider -o file.csv -t csv
 
 python main.py
+

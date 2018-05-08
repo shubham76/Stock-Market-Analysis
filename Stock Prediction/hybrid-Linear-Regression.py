@@ -28,9 +28,9 @@ confidence = clf.score(X_test, y_test)
 print("Hybrid Method Accuracy for Open Price: ")
 print(confidence * 100.0)
 
-plt.scatter(X['Open'],y,color="m",marker="o",s=30)
-plt.plot()
-plt.show()
+# plt.scatter(X['Open'],y,color="m",marker="o",s=30)
+# plt.plot()
+# plt.show()
 
 
 z=df['ForecastClose']
